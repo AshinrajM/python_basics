@@ -149,3 +149,29 @@
 # del thisdict["model"]
 # print(thisdict)     ==>{'brand': 'Ford', 'year': 1964}
 # del thisdict        ==>Entire dictionary can be deleted using del command
+
+
+# 4 Set {}
+# A set is a collection which is unordered, unchangeable*, and unindexed:but you can remove items and add new items.
+# Also duplicates are not allowed in sets
+
+# add()
+# set1 = {"apple", "banana", "cherry"}
+# set1.add("abcd")
+# print(set1)     ==>{'abcd', 'banana', 'apple', 'cherry'}
+
+# update() - add from another set
+# thisset = {"apple", "banana", "cherry"}
+# tropical = {"pineapple", "mango", "papaya"}
+# thisset.update(tropical)
+# print(thisset)
+
+# remove()
+# thisset = {"apple", "banana", "cherry"}
+# thisset.remove("banana")
+# print(thisset)
+
+# discard()     - the difference with remove is that discard wont raise an error if the element doesnt exist but remove does.
+# thisset = {"apple", "banana", "cherry"}
+# thisset.discard("banana")
+# print(thisset)
