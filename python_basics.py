@@ -145,7 +145,7 @@
 # print(thisdict)     ==>{'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
 
 # del()
-thisdict = {"brand": "Ford", "model": "Mustang", "year": 1964}
-del thisdict["model"]
-print(thisdict)     ==>{'brand': 'Ford', 'year': 1964}
-del thisdict 
+# thisdict = {"brand": "Ford", "model": "Mustang", "year": 1964}
+# del thisdict["model"]
+# print(thisdict)     ==>{'brand': 'Ford', 'year': 1964}
+# del thisdict        ==>Entire dictionary can be deleted using del command
