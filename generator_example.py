@@ -29,7 +29,7 @@
 #     print(next(fact))
 
 
-# 3 vowels generator from a strings
+# 3 vowels identifier generator from a strings
 
 
 # def vowels(word):
