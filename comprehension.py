@@ -22,10 +22,11 @@
 
 # dictionary comprehension
 
-# my_list = {"a": 1, "b": 2, "c": 3, "d": 4, "e": 5}
-# latest = {key.upper(): value for key, value in my_list.items()}
-# sample = {a: b * 3 for a, b in my_list.items()}
-# final = {key.replace("a", "H"): value * 3 for key, value in my_list.items()}
+# my_list1 = {"a": 1, "b": 2, "c": 3, "d": 4, "e": 5}
+
+# latest = {key.upper(): value for key, value in my_list1.items()}
+# sample = {a: b * 3 for a, b in my_list1.items()}
+# final = {key.replace("a", "H"): value * 3 for key, value in my_list1.items()}
 
 # print(final)        ==>{'A': 1, 'B': 2, 'C': 3, 'D': 4, 'E': 5}
 # print(sample)       ==>{'a': 3, 'b': 6, 'c': 9, 'd': 12, 'e': 15}
