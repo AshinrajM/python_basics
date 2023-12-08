@@ -31,3 +31,12 @@
 # print(final)        ==>{'A': 1, 'B': 2, 'C': 3, 'D': 4, 'E': 5}
 # print(sample)       ==>{'a': 3, 'b': 6, 'c': 9, 'd': 12, 'e': 15}
 # print(latest)       ==>{'H': 3, 'b': 6, 'c': 9, 'd': 12, 'e': 15}
+
+
+# list slicing
+
+# a = "python-django"
+
+# print(a[2:14])      ==>thon-django
+# print(a[3:12:2])    ==>hndag
+# print(a[:4])        ==>pyth
