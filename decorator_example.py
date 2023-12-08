@@ -8,7 +8,6 @@ def log_function_call(func):
             return "not divisible"
         result = func(a, b)
         return result
-
     return wrapper
 
 
@@ -37,6 +36,6 @@ print(f"Final result: {result2}")
 # returns the results.As you can see we have provided a print() in the divide_numbers() before return.
 
 
-
-
-
+add = lambda a, b: a + b
+x = add(3, 7)
+print("result:", x)
