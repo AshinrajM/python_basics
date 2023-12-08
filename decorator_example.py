@@ -8,6 +8,7 @@ def log_function_call(func):
             return "not divisible"
         result = func(a, b)
         return result
+
     return wrapper
 
 
@@ -32,6 +33,10 @@ print(f"Final result: {result2}")
 # is callled there this entire divide function is passed to the decorator function as argument.And it returns a
 # wrapper function it accepts the the arguments of normal which is in argument of decorator function.Then it goes
 # line by line and returns the "not divible" if the 2nd argument is 0. Otherwise  it calls the divide_numbers()
-# (Because at the argument of decorator function our normal function is there).Then it divides the values and 
+# (Because at the argument of decorator function our normal function is there).Then it divides the values and
 # returns the results.As you can see we have provided a print() in the divide_numbers() before return.
+
+
+
+
 

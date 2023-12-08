@@ -175,3 +175,21 @@
 # thisset = {"apple", "banana", "cherry"}
 # thisset.discard("banana")
 # print(thisset)
+
+
+# lambda - anonymous fn
+# Its a small function that can take n number of arguments but can have only one expression
+
+# 1  add = lambda a, b: a + b
+#   x = add(3, 7)
+#   print("result:", x)
+
+
+# 2    def add(a, b):
+#       result = a + b
+#       subtract = lambda x, y: x - y
+#       return {"subtract": subtract(a, b), "addition": result}
+
+
+# a = add(6, 2)
+# print("result:", a)     ===>result: {'subtract': 4, 'addition': 8}
