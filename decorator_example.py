@@ -8,6 +8,7 @@ def log_function_call(func):
             return "not divisible"
         result = func(a, b)
         return result
+
     return wrapper
 
 

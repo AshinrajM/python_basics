@@ -193,3 +193,25 @@
 
 # a = add(6, 2)
 # print("result:", a)     ===>result: {'subtract': 4, 'addition': 8}
+
+
+# Assigning string element as key in dictionary and other element as its value
+# a="weyste"
+# b={}
+# for i in a:
+#     b[i]=1
+# print(b)        ==>{'w': 1, 'e': 1, 'r': 1, 's': 1, 'h': 1, 'y': 1, 't': 1}
+
+
+# leetcode ===> 387
+# def find(s):
+#     for i in range(len(s)):
+#         if s.count(s[i]) == 1:
+#             return i
+#     else:
+#         return -1
+
+
+# s = "leetcode"
+# s = find(s)
+# print(s)
