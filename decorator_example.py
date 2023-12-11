@@ -16,7 +16,7 @@ def log_function_call(func):
 @log_function_call
 def divide_numbers(a, b):
     print("division completed")
-    return a / b
+    return a % b
 
 
 result = divide_numbers(3, 5)
