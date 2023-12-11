@@ -47,7 +47,6 @@
 #         return sub(n, count)
 
 
-
 # 383
 # def sample(a,b):
 #     for i in a:
@@ -58,3 +57,14 @@
 # print(sample('baa','aab'))
 
 
+
+# from collections import Counter
+
+# 136
+# nums = [4,1,2,1,2]
+
+# dict_nums=Counter(nums)
+
+# for k,v in dict_nums.items():
+#     if v==1:
+#         print(k)
