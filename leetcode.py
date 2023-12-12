@@ -1,3 +1,6 @@
+from collections import Counter
+
+
 # 1672
 # def rich(customer):
 #     count = 0
@@ -57,9 +60,6 @@
 # print(sample('baa','aab'))
 
 
-
-# from collections import Counter
-
 # 136
 # nums = [4,1,2,1,2]
 
@@ -68,3 +68,64 @@
 # for k,v in dict_nums.items():
 #     if v==1:
 #         print(k)
+
+
+# 389
+# s = "ae"
+# t = "aea"
+
+# for i in t:
+#     if s.count(i)!=t.count(i):
+#         res=i
+# print(res)
+
+
+# 268
+# nums = [3,0,1]
+# for i in range(len(nums)+1):
+#     if i not in nums:
+#         print(i)
+
+# 448
+
+# nums = [4,3,2,7,8,2,3,1]
+# n=len(nums)
+# n=len(nums)+1
+# full=[x for x in range(1,n)]
+# print(list(set(full)-set(nums)))
+
+
+# 1903
+# time limit exceeded for this code
+# 1===>
+
+# num = "5254"
+# num1 = "35427"
+# num2 = "4444"
+    # or
+# 2==>
+# n = 0
+# odd = None
+# for i in num2:
+#     n = n * 10 + int(i)
+#     if n % 2 != 0 and n > odd:
+#         odd=n
+# if odd is None:
+#     print("")
+# else:
+#     print(str(odd))
+
+
+# 1903
+# b="3456586785678756456"
+# indx = -1
+# n = len(b)
+# for i in range(n):
+#     if int(b[i])%2 == 1:
+#         indx = i
+
+# if indx == -1:
+#     print("")
+# print(b[:indx+1])
+
+
