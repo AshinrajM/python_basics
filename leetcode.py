@@ -102,7 +102,7 @@ from collections import Counter
 # num = "5254"
 # num1 = "35427"
 # num2 = "4444"
-    # or
+# or
 # 2==>
 # n = 0
 # odd = None
@@ -127,5 +127,43 @@ from collections import Counter
 # if indx == -1:
 #     print("")
 # print(b[:indx+1])
+
+
+# 2264
+# num = "677713333999"
+# num1 = "2400034"
+# n = 0
+# l = 0
+# l1=0
+# for i in range(len(num) - 2):
+#     if num[i] == num[i + 1] == num[i + 2]:
+#         if num[i] == "0":
+#             l1="000"
+#         n = (int(num[i]) * 100) + (int(num[i + 1]) * 10) + (int(num[i + 2]))
+#     if n > l:
+#         l = n
+
+# if l > 0:
+#     print(l)
+# elif l1=="000":
+#     print(l1)
+# else:
+#     print("abc")
+
+
+# 1688
+
+# def numberOfMatches(n,matches=0):
+#     if n==1:
+#         return matches
+#     if n%2==0:
+#         matches += n/2
+#         n = n/2
+#         return numberOfMatches(n,matches)
+#     else:
+#         matches += (n-1)/2
+#         n = ((n-1)/2)+1
+#         return numberOfMatches(n,matches)
+
 
 
