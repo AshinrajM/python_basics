@@ -165,4 +165,15 @@ from collections import Counter
 #         n = ((n-1)/2)+1
 #         return numberOfMatches(n,matches)
 
+# leetcode ===> 387
+# def find(s):
+#     for i in range(len(s)):
+#         if s.count(s[i]) == 1:
+#             return i
+#     else:
+#         return -1
 
+
+# s = "leetcode"
+# s = find(s)
+# print(s)

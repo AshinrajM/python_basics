@@ -203,15 +203,12 @@
 # print(b)        ==>{'w': 1, 'e': 1, 'r': 1, 's': 1, 'h': 1, 'y': 1, 't': 1}
 
 
-# leetcode ===> 387
-# def find(s):
-#     for i in range(len(s)):
-#         if s.count(s[i]) == 1:
-#             return i
-#     else:
-#         return -1
 
 
-# s = "leetcode"
-# s = find(s)
+# s="hi am ashin raj welcome"
+# s=s.title()
 # print(s)
+
+# Hi Am Ashin Raj Welcome ==> title() converts all the first letter of the
+#                             string to upper and all other to lower
+
