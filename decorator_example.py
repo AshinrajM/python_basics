@@ -1,7 +1,6 @@
 # Decorator is a callable function or object  which can be used to modify a function
-
-
 # Decorator function
+# eg1:
 def log_function_call(func):
     def wrapper(a, b):
         if b == 0:
@@ -37,6 +36,26 @@ print(f"Final result: {result2}")
 # returns the results.As you can see we have provided a print() in the divide_numbers() before return.
 
 
-add = lambda a, b: a + b
-x = add(3, 7)
-print("result:", x)
+# eg2:
+def outer(func):
+    def inner():
+        print("decorated")
+        func()
+
+    return inner
+
+
+@outer
+def display():
+    print("normal working")
+
+
+display()
+
+# note : (working of decorator)
+# When you decorate display() with @outer, outer(display) is called.
+# outer(display) returns inner.
+# When you call display(), it is actually invoking inner(). This is because display()
+# has been replaced by the inner function inside outer.
+# So when we call display here it first invokes inner() and prints "decorated",
+# after that calling display() (calls-func()) which shows the "normal working"
