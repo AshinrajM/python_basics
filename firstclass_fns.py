@@ -32,17 +32,33 @@ addition = create_operation("add")
 # 3 functions can be passed as arguments to another functions
 def outer(og_fn):
     print("eneterd inner")
+
     def inner():
         return og_fn()
 
     return inner
 
+
 def display():
     print("checkkkkk")
 
-f = outer(display) # here we are passing a function as argument and it returns a function object of inner()
-f() # here the stored inner function object calls the inner() and returns the fn which passed as an argument.
 
-#output ==>
+f = outer(
+    display
+)  # here we are passing a function as argument and it returns a function object of inner()
+f()  # here the stored inner function object calls the inner() and returns the fn which passed as an argument.
+
+# output ==>
 # eneterd inner
 # checkkkkk
+
+# note : here instead of calling the outer and passing display as argument , we can do it in the form of decorators like,
+
+
+@outer
+def show():
+    print("hey using decorator")
+
+show()
+
+# here we used the method of we using in decorator or this is also a decorator
