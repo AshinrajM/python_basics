@@ -1,5 +1,3 @@
-
-
 # Q1 => sort it appropriate the number in each word in string
 # values="from3 ashin2 kannur4 iam1"
 
@@ -23,7 +21,6 @@
 # ==>Usman Am Here Go
 
 
-
 # Q3 => sort the array in the order of length of the words
 # values = ['absd','df','sad','k']
 
@@ -34,7 +31,7 @@
 # print(values)
 
 
-#Q4 => create string that contains digits and letters that are not in the given string.
+# Q4 => create string that contains digits and letters that are not in the given string.
 #   ( in the result string digits has to be at first and letters after that both should be in sorted order)
 # s='7985interdisciplinary12'
 
@@ -51,6 +48,3 @@
 # result=digit+letter
 # print(''.join(result))
 
-
-
-#Q
