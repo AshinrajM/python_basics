@@ -1,6 +1,6 @@
 # Generator in python is a function that returns an iterator which produces a sequences of values when iterated over.
 # Generators are useful when we want to produce a large sequence of values but we dont want to store all of them.
-# instead return there will be "yield"
+# instead of  return there will be "yield".
 
 
 def powers_of_two():
@@ -15,7 +15,7 @@ for _ in range(5):
     print(next(gen))
 
 # In this example, powers_of_two is a generator function that yields the next power of 2 each time it's called.
-# It doesn't return all the powers of 2 at once but generates them one by one using the yield keyword.
+# It doesn't return all the powers of 2 at once but generates them one by one using the yield keyword. 
 
 
 # 1 fibonacci series using generator
