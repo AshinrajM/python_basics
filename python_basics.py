@@ -214,4 +214,5 @@
 
 
 
+#title() => string method (when a string is given it will capitalize the first letters of the words in that string)
 
