@@ -41,13 +41,13 @@
 
 
 # 2 List []
-# List are mutable while are strings are immutables
+# List are mutable but strings are immutables
 
 # append
 # a = []
 # for i in range(5):
 #     a.append(i)
-# print(a) #[0, 1, 2, 3, 4]
+# print(a) ==>[0, 1, 2, 3, 4]
 
 # clear() clears the elements from the list but list exists
 # a.clear()
@@ -128,7 +128,7 @@
 
 # update values by using key
 # 1==>   thisdict = {"brand": "Ford", "model": "Mustang", "year": 1964}
-# t      hisdict["year"] = 2018
+#        thisdict["year"] = 2018
 #        print(thisdict)     ==>{'brand': 'Ford', 'model': 'Mustang', 'year': 2018}
 # 2==>   thisdict = {"brand": "Ford", "model": "Mustang", "year": 1964}
 #        thisdict.update({"year": 2020})
@@ -204,7 +204,6 @@
 
 
 
-
 # s="hi am ashin raj welcome"
 # s=s.title()
 # print(s)
@@ -214,5 +213,6 @@
 
 
 
-#title() => string method (when a string is given it will capitalize the first letters of the words in that string)
 
+
+ 
